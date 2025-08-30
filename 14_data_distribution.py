@@ -16,3 +16,25 @@ print ("set probability in fix element : ",x)
 x = random .choice([4,7,9,2],p=[0.4,0.2, 0.2,0.2],size=(3,5))
 print ("print 2-d array :",x)
 
+#  RANDOM PERMUTATIONS  ELEMENT :
+# A PERMUTATION REFER TO AN ARRANGEMENT OF ELEMENT E.G. [3,2,1] IA A PERMUTATION OF [1,2,3] AND VICE-VERSA.
+# THE NUMPY RANDOM MODULE PROVIDES TWO METHOD FOR THIS : shuffLE() AND PERMUTATION().
+
+# SHUFFLE MEANS CHANGING ARRANGEMENT OF ELEMENT IN PLACE I.E IN THE ARRAY :
+
+from numpy import random 
+import numpy as np 
+
+arr = np.array ([1,2,3,4,5])
+random . shuffle(arr)
+print ("using shuffle function : ",arr)
+# SHUFFLE METHOD MAKES CHANGE TO THE ORIGINAL ARRAY .
+
+# GENERATE A RANDOM PERMUTATION OF ELEMENT OF FOLLOWING ARRAY : 
+from numpy import random 
+import numpy as np 
+
+arr = np.array ([1,2,3,4,5])
+newarr = random.permutation (arr)
+print (newarr)
+# THE PERMUTATION METHOD RETURN A RE-ARRANGED ARRAY (AND LEAVES THE ORIGINAL ARRAY UN -CHANGED ).
