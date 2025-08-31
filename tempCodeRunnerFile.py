@@ -1,12 +1,7 @@
-import matplotlib.pyplot as plt 
-# import seaborn as sns
-# sns.displot([0,1,2,3,4,5,6])
-# plt.show()
-
-# # plotting a displot without the histogram
+from numpy import random
 # import matplotlib.pyplot as plt
-# import seaborn as sns
+# import seaborn as sns 
 
-# sns.displot([0, 1, 2, 3, 4, 5], kind="kde")
-
+# x = sns.displot(random.binomial(n= 10 , p= 0.9 , size= 100))
+# print (x)
 # plt.show()
