@@ -1,3 +1,11 @@
 {
-  "cSpell.words": ["displot", "DSTACK", "HSTACK", "newarr", "searchsorted"]
+  "cSpell.words": [
+    "displot",
+    "DSTACK",
+    "frompyfunc",
+    "HSTACK",
+    "newarr",
+    "searchsorted",
+    "UFUNC"
+  ]
 }
